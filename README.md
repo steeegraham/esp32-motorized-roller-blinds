@@ -10,23 +10,23 @@
 
 # Pins
 
-		ESP32   ESP8266			
-	M1_1 25		14
-	M1_2 26		12
-	M1_3 32		13
-	M1_4 33		15
+		ESP32	ESP8266			
+	M1_1	 25	  14
+	M1_2 	 26	  12
+	M1_3	 32	  13
+	M1_4	 33	  15
 	CheapStepper Stepper1(M1_1, M1_2, M1_3, M1_4); //Initiate stepper driver
 
-	M2_1 27		10
-	M2_2 14		9
-	M2_3 12		8
-	M2_4 13		11
+	M2_1	 27	  10
+	M2_2	 14	   9
+	M2_3	 12	   8
+	M2_4	 13	  11
 	CheapStepper Stepper2(M2_1, M2_2, M2_3, M2_4);
 
-	M3_1 17		4
-	M3_2 5		5
-	M3_3 18		6
-	M3_4 19		7
+	M3_1	 17	   4
+	M3_2	 5	   5
+	M3_3	 18	   6
+	M3_4	 19	   7
 	CheapStepper Stepper3(M3_1, M3_2, M3_3, M3_4);
 	
 # Latest changes:
